@@ -17,6 +17,7 @@ body {
 
 .app {
     width: 100%;
+    overflow: hidden;
     scroll-behavior: smooth;
     background: #111;
 }
@@ -47,10 +48,4 @@ body {
         rgba(37, 37, 37, 0.61),
         #111
     )
-}
-
-@media screen and (max-width: 280px) {
-    .app {
-        width: 140%;
-    }
 }
