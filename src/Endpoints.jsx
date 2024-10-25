@@ -1,4 +1,4 @@
-const APIKEY = "9b1c5a466ab37282fb4fface26828d2f";
+const APIKEY = import.meta.env.VITE_KEY
 
 const endpoints = {
   fetchNetflixOriginals: `/discover/tv?api_key=${APIKEY}&with_networks=213`,
